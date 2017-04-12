@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Rasp1
+  host: IoT-Rasp1
+  disk_quota: 1024M
+  services:
+  - IoT-Rasp1-cloudantNoSQLDB
+  - IoT-Rasp1-iotf-service
